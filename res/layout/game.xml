@@ -1,0 +1,186 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+	<view class="com.vikinglabs.heroquest.Board"
+	    android:id="@+id/board"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent" />
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        
+        <Button
+            android:id="@+id/gameinfobutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@null"
+            android:text="Game Name"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/endturnbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@null"
+            android:text="End Turn"
+            android:textColor="#FFFFFF" />
+        
+        
+        <Button
+            android:id="@+id/barbbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/dwarfbutton"
+            android:layout_alignRight="@+id/dwarfbutton"
+            android:background="@drawable/barbbutton" 
+            />
+
+        <Button
+            android:id="@+id/wizardbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/elfbutton"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/elfbutton"
+            android:background="@drawable/wizardbutton" 
+            />
+
+        <Button
+            android:id="@+id/dwarfbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/dwarfbutton" 
+            />
+
+        <Button
+            android:id="@+id/elfbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/barbbutton"
+            android:layout_alignBottom="@+id/barbbutton"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/elfbutton" 
+            />
+
+        <Button
+            android:id="@+id/storebutton1"
+            android:layout_width="49dp"
+            android:layout_height="43dp"
+            android:layout_alignRight="@+id/barbbutton"
+            android:background="@drawable/gold_coins"
+            android:text="Store"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/barb_hp_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/barbbutton"
+            android:layout_toRightOf="@+id/barbbutton"
+            android:text="Barb HP"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/dwarf_hp_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/barb_hp_textview"
+            android:layout_alignTop="@+id/dwarfbutton"
+            android:text="Dwarf HP"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/elf_hp_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/elfbutton"
+            android:layout_toLeftOf="@+id/elfbutton"
+            android:text="Elf HP"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/wizard_hp_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/elfbutton"
+            android:layout_toLeftOf="@+id/wizardbutton"
+            android:text="Wizard HP"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/barb_mp_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/barbbutton"
+            android:layout_below="@+id/barb_hp_textview"
+            android:text="Barb MP" />
+
+        <TextView
+            android:id="@+id/dwarf_mp_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/dwarfbutton"
+            android:layout_below="@+id/dwarf_hp_textview"
+            android:text="Dwarf MP" />
+
+        <TextView
+            android:id="@+id/elf_mp_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/elfbutton"
+            android:layout_below="@+id/elf_hp_textview"
+            android:text="Elf MP" />
+
+        <TextView
+            android:id="@+id/wizard_mp_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wizard_hp_textview"
+            android:layout_toLeftOf="@+id/wizardbutton"
+            android:text="Wizard MP" />
+
+        <TextView
+            android:id="@+id/barb_move_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/barb_mp_textview"
+            android:layout_toRightOf="@+id/barbbutton"
+            android:text="Barb Move" />
+
+        <TextView
+            android:id="@+id/dwarf_move_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/dwarfbutton"
+            android:layout_below="@+id/dwarf_mp_textview"
+            android:text="Dwarf Move" />
+
+        <TextView
+            android:id="@+id/elf_move_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/elf_mp_textview"
+            android:layout_toLeftOf="@+id/elfbutton"
+            android:text="Elf Move" />
+
+        <TextView
+            android:id="@+id/wizard_move_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wizard_mp_textview"
+            android:layout_toLeftOf="@+id/wizardbutton"
+            android:text="Wizard Move" />
+
+    </RelativeLayout>
+    
+ </FrameLayout>

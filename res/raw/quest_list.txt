@@ -1,0 +1,169 @@
+<Tag>
+trial
+<Title>
+The Trial
+<Description>
+This is your first step on the road to becoming a hero... tread carefully.
+<Story>
+You have learned well. Now has come the time of your first trial. You are to travel east and enter the catacombs of Verag, a foul gargoyle. The catacombs guard the tomb of Fellmarg. The trial is not easy and you may not return. If you survive, you will continue your training. This is your first step on the road to becoming a hero... tread carefully.
+<Objective>
+Kill Verag.
+</Quest>
+
+<Tag>
+ragnar
+<Title>
+The Rescue of Sir Ragnar
+<Description>
+Prince Magnus will pay 200 gold for the rescue of Sir Ragnar.
+<Story>
+Sir Ragnar, one of the Emporer's most powerful Knights, has been kidnapped. He is being held prisoner by Ulag, the Orc Warlord. You are to find Sir Ragnar and bring him back to safety. Prince Magnus will pay 200 gold for his rescue. The reward may be split between adventurers, but no reward will be paid if Sir Ragnar is killed whilst escaping.
+<Objective>
+Find Sir Ragnar and escort him to safety.
+</Quest>
+
+<Tag>
+lair
+<Title>
+Lair of the Orc Warlord
+<Description>
+Prince Magnus has placed a bounty on Ulag's head.
+<Story>
+Prince Magnus has ordered that the Orc Warlord Ulag, who was responsible for the kidnapping of Sir Ragnar, should be sought out and killed. Whoever kills Ulag will be rewarded with 100 gold coins. Any tresure found in Ulag's stronghold may also be kept.
+<Objective>
+Kill Ulag.
+</Quest>
+
+<Tag>
+magnus
+<Title>
+Prince Magnus' Gold
+<Description>
+Three treasure chests have been stolen whilst being taken to the Emporer.
+<Story>
+Three treasure chests have been stolen whilst being taken to the Emporer. A reward of 200 gold coins has been offered to anyone who can return the chest and ALL the gold. The thieves are known to be a band of Orcs hiding in the Black Mountains. They are led by Gulthor, a Chaos Warrior.
+<Objective>
+Return the three treasure chests along with all of their gold. Those with sticky fingers will be branded as outlaws.
+</Quest>
+
+<Tag>
+maze
+<Title>
+Melar's Maze
+<Description>
+Seek out the Talisman of Melar in the center of his labyrinth.
+<Story>
+Long ago, a powerful sorcerer by the name of Melar created a Talisman which would enhance the wearer's understanding of magic. He kept the Talisman with him at all times, fearing it might be stolen and used by the allies of Morcar. It is said that he left the Talisman in his laboratory at the heart of his Maze. Melar's Maze is guarded by many traps and magical guardians. It is also rumoured to be haunted by those who have sought the Talisman and perished in the attempt...
+<Objective>
+Find Melar's Talisman.
+</Quest>
+
+<Tag>
+legacy
+<Title>
+Legacy of the Orc Warlord
+<Description>
+You have been ambushed by the offspring of Ulag.
+<Story>
+Ulag's foul offspring, Grak, has sworn revenge on those who killed his father. Although it has taken him several months, he has finally tracked you down and captured you in ambush. Now you are held prisoner in his dungeons while he racks his brains to devise a terrible punishment for you. While the guard sleeps, however, you manage to pick the lock of your cell with an old rat bone. You must find your equipment and escape.
+<Objective>
+Find your equipment.
+<Objective>
+Escape the dungeons.
+<Optional>
+Kill Grak.
+</Quest>
+
+<Tag>
+hunter
+<Title>
+The Stone Hunter
+<Description>
+The Emporer's personal Wizard, Karlen, has disappeared.
+<Story>
+The Emproer's personal Wizard, Karlen, has disappeared. The Emporer fears that either he has been murdered or has succumbed to the lures of Chaos magic. You are to find out what has happened to Karlen and, if he is alive, bring him to safety. You will be paid 100 gold coins each upon returning.
+<Objective>
+Find Karlen and escort him to safety.
+</Quest>
+
+<Tag>
+fire
+<Title>
+The Fire Mage
+<Description>
+The Orcs of the Black Mountains have been using Fire magic in their raids.
+<Story>
+The Orcs of the Black Mountains have been using Fire magic in their raids. Balur, the Fire Mage, is thought to be responsible for helping them. No Fire magic can harm him, and the Emporer's Wizards are unable to counter his spells. You have therefore been chosen to enter his lair, deep beneath Black Fire Crag. The Emporer will reward you with 150 gold coins each for Balur's destruction.
+<Objective>
+Kill Balur.
+</Quest>
+
+<Tag>
+race
+<Title>
+Race Against Time
+<Description>
+A guide has led you into a dungeon that is rumored to hold a great secret.
+<Story>
+A guide has led you into a dungeon that is rumored to hold a great secret. He has led you down many dark corridors and finally you find yourself in a room with three doors. Suddenly the guide put out his torch and in the darkness you heard his devious laughter as he made his escape. You realize too late that it was a trap! You must escape or perish in this dark forgotten hole.
+<Objective>
+Escape to safety.
+</Quest>
+
+<Tag>
+castle
+<Title>
+Castle of Mystery
+<Description>
+Find your way into Ollar's magical castle.
+<Story>
+Long ago a crazy wizard, Ollar, discovered the entrance to a gold mine. Using his great powers he built a magic castle above the mine to protect it. The castle had many magic portals and was guarded by a host of monsters who were trapped in time. Can you find the entrance? Others have tried, but the castle has thwarted them every time.
+<Objective>
+Find Ollar's mine and retrieve the gold within.
+</Quest>
+
+<Tag>
+bastion
+<Title>
+Bastion of Chaos
+<Description>
+A direct assault on the hordes of Evil.
+<Story>
+The Lands to the east have been plagued by marauding Orcs and Goblins. The Emporer has ordered that a band of worthy Heroes should be sent forth to destroy them. The Orcs are well protected in a strong underground fortress known as the Bastion of Chaos. They are led by a small group of Chaos Warriors. You must fight your way in and kill all the monsters you find. You will be paid a bounty of 10 gold per Goblin; 20 gold per Orc; and 30 gold per Fimir or Chaos Warrior.
+<Objective>
+Kill all in your path.
+</Quest>
+
+<Tag>
+barak
+<Title>
+Barak Tor
+<Description>
+War with the eastern Orcs is brewing...
+<Story>
+War with the eastern Orcs is brewing and the Emporer needs to unite the lesser kingdoms for the conflict to come. To do this, he must find the ancient Star of the WEst as worn by the Kings of Legend and by Rogar when he battled with Morcar in ages past. Anyone who finds the gem will be given 200 gold. The gem lies in Barak Tor, the resting place of the Witch Lord. He was also known as the King of the Dead, a powerful servant of Morcar, and was destroyed by the Spirit Blade long ago. The Spirit Blade is the only weapon that can harm him.
+<Objective>
+Recover the Star of the West.
+</Quest>
+
+<Tag>
+spirit
+<Title>
+Quest for the Spirit Blade
+<Description>
+You have awoken the Witch Lord!
+<Story>
+You have awoken the Witch Lord. He will pose a most serious threat to the Emporer in the coming war. The Witch Lord must be destroyed before he can bring his army of Undead to attack the Emporer's forces. You must first find the Spirit Blade, for only this ancient weapons can harm him. The Spirit Blade was forged by the Dwarves of the World Edge Mountains and cooled in the Elven fountain of Lebin. The sword now lies in an ancient, ruined temple and you must recover it.
+<Objective>
+Recover the Spirit Blade.
+</Quest>
+
+<Tag>
+return
+<Title>
+Return to Barak Tor
+<Description>
+Face the Witch Lord once more.
+<Story>
+Now that you have found the Spirit Blade, you must return to Barak Tor and defeat the Witch Lord. The Emporer has ridden forth to meet the Eastern Orcs at Black Fire Pass. If you fail, the Witch Lord will lead his army of Undead and attack the Emporer's forces from the rear. Then nothing will remain to prevent the Forces of Chaos from overrunning the land...
+</Quest>

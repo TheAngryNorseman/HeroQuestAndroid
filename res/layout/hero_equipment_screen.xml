@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/character_image_view"
+            android:layout_width="242dp"
+            android:layout_height="242dp"
+            android:src="@drawable/jedi" />
+
+        <RelativeLayout
+            android:layout_width="243dp"
+            android:layout_height="match_parent" >
+
+            <CheckBox
+                android:id="@+id/helm_slot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Helm" />
+
+            <CheckBox
+                android:id="@+id/cloak_slot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/helm_slot"
+                android:layout_alignParentLeft="true"
+                android:text="Cloak" />
+
+            <CheckBox
+                android:id="@+id/weapon_slot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cloak_slot"
+                android:layout_alignParentLeft="true"
+                android:text="Weapon" />
+
+            <CheckBox
+                android:id="@+id/armor_slot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:text="Armor" />
+            
+            <CheckBox
+                android:id="@+id/wrist_slot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/armor_slot"
+                android:layout_alignParentRight="true"
+                android:text="Wrist" />
+
+            <CheckBox
+                android:id="@+id/shield_slot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/wrist_slot"
+                android:layout_alignParentRight="true"
+                android:text="Shield" />
+
+
+
+        </RelativeLayout>
+    </FrameLayout>
+
+    <CheckBox
+        android:id="@+id/CheckBox8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/CheckBox4"
+        android:layout_toLeftOf="@+id/CheckBox7"
+        android:text="Back 7" />
+
+    <CheckBox
+        android:id="@+id/CheckBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Back 2" />
+
+    <CheckBox
+        android:id="@+id/CheckBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/CheckBox2"
+        android:text="Back 1" />
+
+    <CheckBox
+        android:id="@+id/CheckBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/CheckBox2"
+        android:text="Back 4" />
+
+    <CheckBox
+        android:id="@+id/CheckBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/CheckBox1"
+        android:layout_below="@+id/CheckBox1"
+        android:text="Back 3" />
+
+    <CheckBox
+        android:id="@+id/CheckBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/CheckBox5"
+        android:text="Back 6" />
+
+    <CheckBox
+        android:id="@+id/CheckBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/CheckBox5"
+        android:layout_toLeftOf="@+id/CheckBox5"
+        android:text="Back 5" />
+
+    <CheckBox
+        android:id="@+id/CheckBox7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/CheckBox6"
+        android:text="Back 8" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/done_button"
+        android:layout_alignParentLeft="true"
+        android:text="Mind : " />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:text="Moves Left : " />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:text="Body : " />
+
+    <Button
+        android:id="@+id/done_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="Done" />
+
+</RelativeLayout>

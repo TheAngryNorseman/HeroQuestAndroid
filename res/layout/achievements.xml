@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1" android:layout_width="match_parent" android:layout_height="match_parent">
+	<TextView android:id="@+id/textView1" android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true" android:gravity="center"
+		android:text="Achievements" android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<ListView android:id="@+id/achievements_list_view"
+		android:layout_width="match_parent" android:layout_height="match_parent"
+		android:layout_alignParentLeft="true" android:layout_alignParentRight="true"
+		android:layout_below="@+id/textView1" android:fadingEdge="vertical"
+		android:fadingEdgeLength="10dp" android:padding="5dp" />
+
+</RelativeLayout>

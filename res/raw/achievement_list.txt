@@ -1,0 +1,57 @@
+<Version>
+1
+
+<Title>
+Trial Normal
+<Description>
+Complete 'The Trial' on Normal Difficulty.
+
+<Title>
+Trial Hard
+<Description>
+Complete 'The Trial on Hard Difficulty.
+
+<Title>
+Trial Insane
+<Description>
+Complete 'The Trial on Insane Difficulty.
+
+<Title>
+Normal Campaign
+<Description>
+Complete all quests on at least Normal Difficulty.
+
+<Title>
+Three's Company
+<Description>
+Complete a quest with only three characters.
+
+<Title>
+Dynamic Duo
+<Description>
+Complete a quest with only two characters.
+
+<Title>
+Starts with C, Rhymes with Ronan.
+<Description>
+Complete a quest with only the barbarian.
+
+<Title>
+Maybe he was tossed...
+<Description>
+Complete a quest with only the dwarf.
+
+<Title>
+They really are Immortal.
+<Description>
+Complete a quest with only the elf.
+
+<Title>
+Soft, yet durable.
+<Description>
+Complete a quest with only the wizard.
+
+<Title>
+Invincible
+<Description>
+Suffer no damage on normal difficulty or harder.

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent">
+
+	<Gallery android:id="@+id/gallery1" android:layout_width="match_parent"
+		android:layout_height="match_parent" android:layout_above="@+id/barb_checkbox"
+		android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+
+	<Button android:id="@+id/start_game_button"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true" android:layout_alignTop="@+id/wizard_checkbox"
+		android:padding="5dp" android:text="Start Game" />
+
+	<CheckBox android:id="@+id/barb_checkbox" android:button="@drawable/barb_checkbox"
+		android:background="@drawable/checkbox_background" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true" android:checked="true"
+		android:scaleX="0.9" android:scaleY="0.9" />
+
+	<CheckBox android:id="@+id/dwarf_checkbox"
+		android:button="@drawable/dwarf_checkbox" android:background="@drawable/checkbox_background" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+		android:layout_toRightOf="@+id/barb_checkbox" android:checked="true"
+		android:scaleX="0.9" android:scaleY="0.9" />
+
+	<CheckBox android:id="@+id/elf_checkbox" android:button="@drawable/elf_checkbox"
+	    android:background="@drawable/checkbox_background"  android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+		android:layout_toRightOf="@+id/dwarf_checkbox" android:checked="true"
+		android:scaleX="0.9" android:scaleY="0.9" />
+
+	<CheckBox android:id="@+id/wizard_checkbox" android:background="@drawable/checkbox_background" 
+	    android:button="@drawable/wizard_checkbox"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true" android:layout_toRightOf="@+id/elf_checkbox"
+		android:checked="true" android:scaleX="0.9" android:scaleY="0.9" />
+
+	<Spinner
+	    android:id="@+id/difficulty_spinner"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_toLeftOf="@+id/start_game_button"
+	    android:layout_toRightOf="@+id/wizard_checkbox"
+	    android:scaleX="0.9"
+	    android:scaleY="0.9" />
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:orientation="horizontal" android:weightSum="3">
+
+	<ListView android:id="@+id/quest_list_view"
+		android:layout_width="0dp" android:layout_height="match_parent"
+		android:layout_weight="1" android:fadingEdge="vertical"
+		android:padding="5dp" />
+	<LinearLayout android:layout_width="0dp"
+		android:layout_height="match_parent" android:orientation="vertical"
+		android:layout_weight="1">
+
+		<ImageView
+		    android:id="@+id/quest_image_view"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:padding="5dp"
+		    android:src="@drawable/splash" />
+
+		<TextView android:id="@+id/title_header"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:gravity="center_horizontal" android:padding="5dp"
+			android:text="Quest Description" android:typeface="serif" />
+		<ScrollView android:id="@+id/description_scrollview"
+			android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+			<LinearLayout android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+
+				<TextView android:id="@+id/quest_text_view"
+					android:layout_width="200dp" android:layout_height="134dp"
+					android:padding="5dp" android:scrollHorizontally="false"
+					android:text="No Quests Available" android:typeface="serif" />
+			</LinearLayout>
+		</ScrollView>
+
+	</LinearLayout>
+	<LinearLayout android:layout_width="0dp"
+		android:layout_height="match_parent" android:orientation="vertical"
+		android:layout_weight="1">
+		<CheckBox android:id="@+id/barb_checkbox"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:checked="true" android:text="Barbarian" android:typeface="serif" />
+		<CheckBox android:id="@+id/dwarf_checkbox"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:checked="true" android:text="Dwarf" android:typeface="serif" />
+		<CheckBox android:id="@+id/elf_checkbox"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:checked="true" android:text="Elf" android:typeface="serif" />
+		<CheckBox android:id="@+id/wizard_checkbox"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:checked="true" android:text="Wizard" android:typeface="serif" />
+		<TextView android:id="@+id/textView1" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:gravity="center_horizontal"
+			android:text="Zargon Difficulty" android:typeface="serif" />
+		<Spinner android:id="@+id/difficulty_spinner"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:gravity="center" />
+		<LinearLayout android:id="@+id/linearLayout1"
+			android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+			<Button android:id="@+id/details_button" android:layout_width="wrap_content"
+				android:layout_height="match_parent" android:text="Details..."
+				android:typeface="serif" />
+
+			<Button android:id="@+id/start_game_button"
+				android:layout_width="wrap_content" android:layout_height="match_parent"
+				android:text="Start Game!" android:typeface="serif" />
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>

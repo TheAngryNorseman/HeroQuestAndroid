@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/RelativeLayout1" android:layout_width="match_parent"
+	android:layout_height="match_parent" android:orientation="vertical">
+
+	<TextView android:id="@+id/title_text_view"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+		android:gravity="center" android:text="Large Text"
+		android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	<LinearLayout
+	    android:id="@+id/LinearLayout1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_below="@+id/title_text_view" >
+
+		<TabHost android:id="@android:id/tabhost"
+			android:layout_width="match_parent" android:layout_height="wrap_content">
+
+			<LinearLayout
+			    android:layout_width="367dp"
+			    android:layout_height="wrap_content"
+			    android:orientation="vertical"
+			    android:padding="5dp" >
+
+				<TabWidget
+				    android:id="@android:id/tabs"
+				    android:layout_width="match_parent"
+				    android:layout_height="match_parent"
+				    android:gravity="top" />
+
+				<FrameLayout
+				    android:id="@android:id/tabcontent"
+				    android:layout_width="match_parent"
+				    android:layout_height="match_parent" >
+
+					<LinearLayout
+					    android:id="@+id/description_tab"
+					    android:layout_width="match_parent"
+					    android:layout_height="match_parent" >
+
+						<ScrollView android:id="@+id/description_scroll_view"
+							android:layout_width="wrap_content" android:layout_height="match_parent">
+
+							<LinearLayout android:layout_width="match_parent"
+								android:layout_height="match_parent">
+								<TextView android:id="@+id/description_text_view"
+									android:layout_width="wrap_content" android:layout_height="wrap_content"
+									android:text="Description" />
+
+							</LinearLayout>
+						</ScrollView>
+
+					</LinearLayout>
+
+
+					<LinearLayout android:id="@+id/objectives_tab"
+						android:layout_width="match_parent" android:layout_height="match_parent">
+						<ScrollView android:id="@+id/objectives_scroll_view"
+							android:layout_width="match_parent" android:layout_height="match_parent">
+
+							<LinearLayout android:layout_width="match_parent"
+								android:layout_height="match_parent">
+								<TextView android:id="@+id/objectives_text_view"
+									android:layout_width="wrap_content" android:layout_height="wrap_content"
+									android:text="Objectives" />
+
+							</LinearLayout>
+						</ScrollView>
+
+					</LinearLayout>
+
+
+					<LinearLayout android:id="@+id/statistics_tab"
+						android:layout_width="match_parent" android:layout_height="match_parent">
+						<ScrollView android:id="@+id/statistics_scroll_view"
+							android:layout_width="match_parent" android:layout_height="match_parent">
+
+							<LinearLayout android:layout_width="match_parent"
+								android:layout_height="match_parent">
+								<TextView android:id="@+id/statistics_text_view"
+									android:layout_width="wrap_content" android:layout_height="wrap_content"
+									android:text="Statistics" />
+
+							</LinearLayout>
+						</ScrollView>
+
+					</LinearLayout>
+
+				</FrameLayout>
+			</LinearLayout>
+		</TabHost>
+	</LinearLayout>
+
+	<RelativeLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentRight="true"
+	    android:layout_below="@+id/title_text_view"
+	    android:layout_toRightOf="@+id/LinearLayout1"
+	    android:padding="5dp" >
+
+		<ImageView android:id="@+id/medal_image_view"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			android:layout_alignParentRight="true" android:layout_alignParentTop="true"
+			android:src="@drawable/ic_launcher" />
+
+		<TextView android:id="@+id/textView2" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_alignParentLeft="true"
+			android:layout_below="@+id/medal_image_view" android:text="Difficulty Completed:" />
+
+		<TextView android:id="@+id/textView1" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_alignParentLeft="true"
+			android:layout_below="@+id/textView2" android:text="A Difficulty" />
+
+		<TextView android:id="@+id/textView3" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_alignParentLeft="true"
+			android:layout_below="@+id/textView1" android:text="Date Completed:" />
+		<TextView android:id="@+id/textView4" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_alignParentLeft="true"
+			android:layout_below="@+id/textView3" android:text="A Date" />
+
+	</RelativeLayout>
+
+</RelativeLayout>

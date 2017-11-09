@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="horizontal">
+
+	<RelativeLayout android:layout_width="wrap_content"
+		android:layout_height="match_parent" android:orientation="vertical">
+
+		<Button android:id="@+id/new_game_button" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="New Game" />
+
+		<Button android:id="@+id/exit_button" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentRight="true" android:text="Exit Game" />
+
+		<Button android:id="@+id/store_button" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentLeft="true" android:text="Armory" />
+
+		<Button android:id="@+id/resume_game_button"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true" android:layout_below="@+id/new_game_button"
+			android:text="Resume Game" />
+
+		<Button android:id="@+id/settings_button" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_above="@+id/exit_button"
+			android:layout_alignParentRight="true" android:text="Settings" />
+		<Button android:id="@+id/achievements_button"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_above="@+id/resume_game_button"
+			android:layout_alignParentRight="true" android:text="Achievements" />
+		<Button android:id="@+id/statistics_button"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_alignParentRight="true" android:layout_below="@+id/achievements_button"
+			android:text="Statistics" />
+		<Button android:id="@+id/multiplayer_button"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_alignBaseline="@+id/settings_button"
+			android:layout_alignBottom="@+id/settings_button"
+			android:layout_alignParentLeft="true" android:text="Multiplayer" />
+		<ImageView android:id="@+id/imageView1"
+			android:layout_width="wrap_content" android:layout_height="match_parent"
+			android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+			android:src="@drawable/splash" />
+
+	</RelativeLayout>
+
+</FrameLayout>
